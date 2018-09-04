@@ -81,6 +81,7 @@ package {
 		 * @param	target 目标对象(即将更改属性值的对象)。
 		 * @param	props 变化的属性列表，比如{x:100,y:20,ease:Ease.backOut,complete:Handler.create(this,onComplete),update:new Handler(this,onComplete)}。
 		 * @param	duration 花费的时间，单位毫秒。
+		 * @param	loop 缓动类型
 		 * @param	ease 缓动类型，默认为匀速运动。
 		 * @param	complete 结束回调函数。
 		 * @param	delay 延迟执行时间。
@@ -316,7 +317,7 @@ package {
 					// 	prop[1].z + (ratio * prop[2].z)));
 				}
 
-				//3d   材质更换颜色  这里只做了BlinnPhongMaterial
+				//3d   材质更换颜色  
 				//target = MeshSprite3D 
 				if(prop[0].toLowerCase() == "color" && (target as MeshSprite3D)){
 					var color:Vector4 = new Vector4(
