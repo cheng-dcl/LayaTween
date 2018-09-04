@@ -1,0 +1,19 @@
+1,0.00,,0,Project command:g:\LayaSpace\LayaTween/.actionScriptProperties;iflash=false;windowshow=false;chromerun=false;quickcompile=true
+Project configuration:g:\LayaSpace\LayaTween/.actionScriptProperties.
+1,0.00,,0,output path:g:/LayaSpace/LayaTween/bin/h5/
+1,0.00,,0,Main Class:g:/LayaSpace/LayaTween/src/LayaAir3D.as
+1,0.00,,0,output file:LayaAir3D
+1,0.00,,0,compilerSourcePath g:/LayaSpace/LayaTween/libs/laya/src/
+
+1,0.00,,0,Compile Path:g:/LayaSpace/LayaTween/src/
+
+1,0.00,,0,Compile Path:g:/LayaSpace/LayaTween/libs/laya/src/
+
+1,0.00,g:/LayaSpace/LayaTween/src,0,Collect
+1,0.00,g:/LayaSpace/LayaTween/libs/laya/src,0,Collect
+1,2.00,,0,read class message
+1,89.62,,0,Disable Flash3D g:/LayaSpace/LayaTween/src/LayaAir3D.as
+12,89.62,g:/LayaSpace/LayaTween/bin/h5/LayaAir3D.max.js,2645268,
+11,89.62,g:/LayaSpace/LayaTween/bin/h5/LayaAir3D.max.html,892,
+******************************************************************************
+14,89.62,,0,
