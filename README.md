@@ -14,9 +14,9 @@ public static const LoopType_Loop:String = "loop";
 
 ### 2 增加简单3d缓动: Position,Scale,Rotation,Color
 
-# 使用方式
+## 使用方式
 1，cTween是原Tween上覆盖实现的,实现方式和使用方式尽量保持的跟laya的一致。<br>
-2，下载[cTween.as]文件拖到自己项目中。<br>  
+2，下载[cTween.as]文件拖到自己项目中。<br>
 3，也可以下载整个工程，看看效果及调用方式。效果如下：<br>  
 ![demogif]
 
