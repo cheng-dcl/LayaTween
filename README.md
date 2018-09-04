@@ -5,7 +5,7 @@
 这段时间学习laya做3d小游戏，在想要3d缓动时，发现官方的缓动只能用于2d。且想用一个基本的yoyo和loop时，也是不支持的，需要自己实现。
 看到社区里也有很多人问Tween有没有yoyo或3d之类的。所以这里把自己简单实现的分享出来。说不定对刚接触laya的同学有所帮助。
 
-# 实现功能
+## 实现功能
 ### 1 增加loop类型： loop , pingpong
 ```java
 public static const LoopType_None:String = "none";
@@ -21,7 +21,7 @@ public static const LoopType_Loop:String = "loop";
 3，也可以下载整个[demo]，看看效果及调用方式。效果如下：
 ![demogif]
 
-# 如何调用
+## 如何调用
 1，直接cTween.to(...)调用。
 ```java
 public static function to(target:*, props:Object, duration:int,loop:String = LoopType_None, ease:Function = null, complete:Handler = null, delay:int = 0, coverBefore:Boolean = false, autoRecover:Boolean = true) :cTween
